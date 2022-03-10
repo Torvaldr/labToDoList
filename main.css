@@ -1,0 +1,19 @@
+.body{
+    width: 100%;
+    height: 100vh;
+    padding: 10px;
+    background: black;
+}
+.wrapper{
+    color: #f398d6;
+    font-style: italic;
+    background: #d2c1c1;
+}
+.wrapper h1{
+    color: #f398d6;
+    font-style: italic;
+    background: #d2c1c1;
+}
+.search {
+    color: #ffffff;
+}

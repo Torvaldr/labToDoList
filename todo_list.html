@@ -7,20 +7,20 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-<div class="wrapper">
-    <h1>Список дел</h1>
-    <div class="search">
-        <form action="" method="get">
-            <input name="s" placeholder="Новая задача" type="search">
-            <button type="submit">Сохранить</button>
-        </form>
+<h2 class="todo__caption">Список задач</h2> <!— Заголовок списка —>
+<div class="container" style="width: 400px; margin: auto;"> <!— Ограничиваем ширину списка задач и ставим его по центру —>
+
+    <!— Дальше будет поле ввода, куда пишем новые задачи —>
+    <div class="tdlApp">
+        <input type="text" class="form-control" placeholder="Новая задача">
     </div>
-    <div>
-        <ol>
-            <li>Выучить английский</li>
-            <li>Помыть машjjjину</li>
-        </ol>
-    </div>
+        <!— Создаём пока ещё пустой список —>
+        <div class="tdlDiv">
+            <ul class="tdList list-unstyled">
+                <!— Тут появятся наши задачи, когда мы их добавим —>
+            </ul>
+        </div>
+
 </div>
 </body>
 </html>
